@@ -1,0 +1,44 @@
+table,th,td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+th{
+    height: 100px;
+    background-color: rgb(205, 199, 233);
+    text-align: left;
+   
+}
+td{
+    height: 70px;
+    background-color: rgb(242, 242, 245);
+    text-align: left ;
+    
+}
+th,td{
+    padding: 15px;
+    border-bottom: 2px solid rgb(78, 80, 76);
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+tr: hover{
+    background-color: coral;
+}
+.div1{
+    background-color: aqua;                
+}
+.div2{
+    background-color:lightcoral;                
+}
+.div3{
+    background-color:lightgreen;                
+}
+p.center{
+    color:rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+}  
