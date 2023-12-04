@@ -3,38 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Day11</title>
 </head>
 <body>
     <div class="container">
+        <h1>Day 11- Bootstrap Class</h1>
         <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
+            <div class="col col-sm-1 bg-primary">Span1</div>
+            <div class="col col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
+            <div class="col-sm-1 bg-primary">Span1</div>
         </div>
         <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
+            <div class="col-sm-2 bg-success">Span2</div>
+            <div class="col-sm-2 bg-success">Span2</div>
+            <div class="col-sm-2 bg-success">Span2</div>
+            <div class="col-sm-2 bg-success">Span2</div>
+            <div class="col-sm-2 bg-success">Span2</div>
+            <div class="col-sm-2 bg-success">Span2</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 bg-warning">Span3</div>
+            <div class="col-sm-3 bg-warning">Span3</div>
+            <div class="col-sm-3 bg-warning">Span3</div>
+            <div class="col-sm-3 bg-warning">Span3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 bg-danger">Span4</div>
+            <div class="col-sm-4 bg-danger">Span4</div>
+            <div class="col-sm-4 bg-danger">Span4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 bg-info">Span5</div>
+            <div class="col-sm-6 bg-info">Span5</div>          
+        </div>
+        <div class="row">
+            <div class="col-sm-12 bg-secondary">Span5</div>                  
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <table class="table">
+                <table class="table table-striped table-hover table-bordered">
                     <thead>
-                        <tr><th></th></tr>
+                        <tr class="bg-dark text-white"><th>Head1</th><th>Head2</th><th>Head3</th></tr>
                     </thead>
                     <tbody>
-                        <tr><td></td></tr>
+                        <tr><td>Row1data1</td><td>Row1data2</td><td>Row1data3</td></tr>
+                        <tr><td>Row2data1</td><td>Row2data2</td><td>Row2data3</td></tr>
+                        <tr><td>Row3data1</td><td>Row3data2</td><td>Row3data3</td></tr>
+                        <tr><td>Row4data1</td><td>Row4data2</td><td>Row4data3</td></tr>
                     </tbody>
                 </table>
             </div>
-            <div class="row">
                 <div class="col-sm-6">
-                    <form action="">
-                        
+                    <h2>Stacked Form</h2>
+                    <form action="#">
+                        First Name:<input class="form-control" type="text" placeholder="Enter first name">
+                        Last Name:<input class="form-control" type="text" placeholder="Enter last name">
+                        <input class="btn btn-primary" type="submit">
                     </form>
                 </div>
+        </div>
+        <div class="row col-sm-12">
+            <h2>Inline Form</h2><br>                
+        </div>
+        <div class="row col-sm-12">
+            <form class="form-inline" action="#">
+                First Name:<input class="form-control" type="text" placeholder="Enter first name">
+                Last Name:<input class="form-control" type="text" placeholder="Enter last name">
+                <input class="btn btn-success" type="submit">
+            </form>           
         </div>
     </div>
     
