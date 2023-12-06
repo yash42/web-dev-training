@@ -19,3 +19,4 @@
 
 #### Demo
 - Phising using Facebook UI
+- CVE (Common Vulnerabilities and Exposures) https://www.cvedetails.com/
