@@ -6,7 +6,7 @@
 - Malware
 - Denial of Service(DoS/DDoS)
 - Social Engineering
-- MITM
+- MITM (Man-in-the-Middle Attack)
 - Virus
 - Insider Threat
 - SQL Injection
@@ -17,4 +17,5 @@
 - Spoofing
 - DNS Hijacking
 
-### 
+#### Demo
+- Phising using Facebook UI
