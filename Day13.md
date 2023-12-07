@@ -1,5 +1,6 @@
 # Web security Fundamentals
 -  CIA Traids (Confidentiality, Integrity, Availability)
+
 ### Common Cybersecurity Threats
 - Phising
 - Ransomeware
